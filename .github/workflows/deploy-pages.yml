@@ -23,7 +23,7 @@ jobs:
           cp -r privacy.html terms.html public/
           touch public/.nojekyll
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: public
 
